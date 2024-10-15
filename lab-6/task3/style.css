@@ -1,0 +1,64 @@
+.obolonka{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.img1{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+}
+.ul1{
+    list-style: none;
+    padding: 5px;
+    float: right;
+}
+.ul1 li{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(203, 90, 86);
+    padding: 10px;
+}
+.ul1 li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.styl{
+    display: inline;
+}
+.div1{
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: rgb(85, 16, 16);
+    text-align: justify;
+    padding: 25px;
+    color: white;
+}
+.h1{
+    text-align: center;
+}
+.div2{
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: rgb(151, 78, 78);
+    text-align: justify;
+    padding: 25px;
+    color: white;
+
+}
+.div3{
+    overflow: hidden;
+    border-radius: 70px;
+    background-color: rgb(228, 50, 50);
+    text-align: justify;
+    padding: 25px;
+    color: white;
+    width: 400px;
+    display: inline-block;
+}
+.div31{
+    margin-left: 180px;
+}

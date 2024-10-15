@@ -1,0 +1,47 @@
+.obolonka{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.img1{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+}
+.ul1{
+    list-style: none;
+    padding: 5px;
+    float: right;
+}
+.ul1 li{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(203, 90, 86);
+    padding: 10px;
+}
+.ul1 li a{
+    text-decoration: none;
+    color: #000;
+}
+.p1{
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 5px dotted red;
+    margin: 20px;
+}
+p img{
+    width: 200px;
+}
+.img2{
+    float: right;
+    margin: 10px;
+}
+.img3{
+    float: left;
+    margin: 10px;
+}
+.styl{
+    display: inline;
+}

@@ -1,0 +1,124 @@
+.obolonka{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.img1{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 100px;
+    margin-left: 20px;
+}
+.ul1{
+    list-style: none;
+    padding: 5px;
+    float: right;
+}
+.ul1 li{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(203, 90, 86);
+    padding: 10px;
+}
+.ul1 li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.styl{
+    display: inline;
+}
+div div div{
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    float: left;
+}
+.h1{
+    padding-left: 10px;
+    text-align: center;
+}
+div div div img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding:10px;
+    margin-left:45px;
+}
+.div1{
+    background-image: linear-gradient(45deg,yellow,green,blue,orange);
+}
+.div2{
+    background-color: white;
+    background-image: repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange)
+    /* repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange), */
+    /* repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange),
+    repeating-linear-gradient(45deg,yellow,white,orange,blue),
+    repeating-linear-gradient(45deg,green,white,purple,orange) */
+    ;
+    background-size: 50px 50px;
+    background-position: 0 0, 50px 50px;
+    /* background-position: 50px 0, 0 50px,150px 0px,100px 50px,250px 0,200px 50px,
+    50px 100px, 0 150px,150px 100px,100px 150px,250px 100px,200px 150px,
+    50px 200px, 0 250px,150px 200px,100px 250px,250px 200px,200px 250px,
+    50px 300px, 0 350px,150px 300px,100px 350px,250px 300px,200px 350px; */
+    background-repeat:no-repeat ;
+    /* linear-gradient(45deg,yellow,white,orange,blue) 
+    linear-gradient(45deg,green,white,purple,orange),
+    0px 0px,50px 50px,100px 0px,150px 50px,200px 0,250px 50px*/
+}
+.div3{
+    background: linear-gradient(90deg,green,white),
+    linear-gradient(90deg,blue,yellow),
+    linear-gradient(90deg,green,white),
+    linear-gradient(90deg,blue,yellow),
+    linear-gradient(90deg,green,white),
+    linear-gradient(90deg,blue,yellow);
+    background-size: 50px;
+    background-position: 0,50px,100px,150px,200px,250px;
+    background-repeat:no-repeat ;
+}
+.div4{
+    background-image: linear-gradient(-45deg,yellow 40%,transparent 40%),
+    linear-gradient(45deg,green 25%,transparent 25%),
+    linear-gradient(120deg,orange 15%,transparent 50%,white),
+    linear-gradient(blue 30%,white 60%);
+}
+.div5{
+    background: repeating-linear-gradient(-190deg,rgba(255,0,0,0.5) 30px,
+    rgba(255,153,0,0.5) 60px,rgba(255,255,0,0.5) 90px,
+    rgba(0,255,0,0.5)120px,rgba(0,0,255,0.5)150px,
+    rgba(75,0,130,0.5)180px,rgba(238,130,238,0.5)210px,
+    rgba(255,0,0,0.5)),
+    repeating-linear-gradient(190deg,rgba(255,0,0,0.5) 40px,
+    rgba(255,153,0,0.5) 80px,rgba(255,255,0,0.5) 120px,
+    rgba(0,255,0,0.5)160px,rgba(0,0,255,0.5)200px,
+    rgba(75,0,130,0.5)240px,rgba(238,130,238,0.5)280px,
+    rgba(255,0,0,0.5) 300px),
+    repeating-linear-gradient(23deg,red 50px,
+    yellow 100px,yellow 150px,
+    green 200px,blue 250px,
+    indigo 300px,violet 350px,
+    red 370px);
+}
