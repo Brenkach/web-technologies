@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+/* Основний блок 1.1 */
+.block1 {
+    width: 100px;
+    height: 40px;
+    background-color: #10B981; /* Green */
+    opacity: 1;
+}
+/* Блок 1.2, що з'являється при наведенні на Блок 1.1 */
+.block2 {
+    width: 120px;
+    height: 100px;
+    background-color: #3B82F6; /* Blue */
+}
+
+.block12 {
+    position: absolute;
+    bottom: 0;
+}
+
+.block11 {
+    order: 1;
+}
+
+.block21 {
+    position: relative;
+    opacity: 0;
+    order:2;
+}
+
+.block22 {
+    opacity: 0;
+    order: 3;
+}
+
+.block11:hover + .block21{
+    opacity: 1;
+}
+
+.block12:hover + .block22 {
+    opacity: 1;
+}
